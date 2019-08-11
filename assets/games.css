@@ -1,0 +1,58 @@
+#navbar {
+    border-style: outset;
+    border-color: aqua;
+}
+
+body {
+    background-color: lightgray
+}
+
+.container {
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+}
+
+h1 {
+    width: 92%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    margin-left: 12px;
+}
+h2 {
+    font-size: 100%;
+    margin-left: 32px;
+}
+
+.row {
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin: 0px;
+    padding: 12px;
+    padding-bottom: 48px;
+    border-style: outset;
+    border-color: aqua;
+}
+
+img {
+    float: left;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+.game-link {
+    margin: 30px;
+    text-align: left;
+    padding: .5rem 1rem;
+}
+
+.row2 {
+    background-color: darkgrey;
+}
