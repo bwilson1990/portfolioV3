@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray
+    background-color: rgb(36, 114, 204);
 }
 
 .container {
@@ -24,7 +24,7 @@ h1 {
 
 .row {
     color: black;
-    background-color: white;
+    background-color: lightgrey;
     text-align: left;
     margin: 0px;
     padding: 12px;
@@ -38,6 +38,8 @@ img {
     float: left;
     margin: 22px;
     margin-top: 0px;
+    height: 520px;
+    width: 400px;
 }
 
 p {

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: lightgray
+    background-color: rgb(36, 114, 204);
 }
 
 .container {
@@ -19,32 +19,42 @@ body {
 }
 
 h1 {
-    width: 92%;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-right: 32px;
-    margin-left: 12px;
+    text-align: center;
+    width: 100%;
+    margin: 32px;
+    color: rgb(26, 26, 121);
+    text-shadow: .5px .5px rgb(68, 200, 233)
 }
 h2 {
-    font-size: 100%;
+    font-size: 125%;
     margin-left: 32px;
+    margin-top: 25px;
 }
 
 .row {
     color: black;
-    background-color: white;
+    background-color: lightgrey;
     text-align: left;
     margin: 0px;
     padding: 12px;
-    padding-bottom: 48px;
     border-style: outset;
     border-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 32px;
 }
 
-img {
-    float: left;
-    margin: 50px;
-    margin-top: 0px;
+/* .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+} */
+
+
+.img-fluid {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .game-link {
